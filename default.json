@@ -3,6 +3,7 @@
   "extends": ["config:recommended"],
   "assignees": ["gameroman"],
   "reviewers": ["gameroman"],
+  "assignAutomerge": true,
   "packageRules": [
     {
       "matchPackageNames": [
@@ -14,6 +15,14 @@
       ],
       "groupName": "lint and format tools"
     },
-    { "matchPackageNames": ["typescript"], "groupName": "typescript" }
+    { "matchPackageNames": ["typescript"], "groupName": "typescript" },
+    {
+      "matchPackageNames": ["esbuild"],
+      "groupName": "esbuild",
+      "automerge": true,
+      "automergeType": "pr",
+      "automergeStrategy": "squash",
+      "platformAutomerge": true
+    }
   ]
 }
