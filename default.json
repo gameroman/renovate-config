@@ -18,6 +18,9 @@
       "groupName": "lint and format tools"
     },
     { "matchPackageNames": ["typescript"], "groupName": "typescript" },
+    { "matchPackageNames": ["wrangler"], "groupName": "wrangler" },
+    { "matchPackageNames": ["astro"], "groupName": "astro" },
+    { "matchPackageNames": ["solid-js"], "groupName": "solid-js" },
     {
       "matchPackageNames": ["esbuild"],
       "groupName": "esbuild",
