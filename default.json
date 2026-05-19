@@ -19,8 +19,13 @@
     },
     { "matchPackageNames": ["typescript"], "groupName": "typescript" },
     { "matchPackageNames": ["wrangler"], "groupName": "wrangler" },
-    { "matchPackageNames": ["astro"], "groupName": "astro" },
+    {
+      "matchPackageNames": ["astro", "@astrojs/cloudflare"],
+      "groupName": "astro"
+    },
     { "matchPackageNames": ["solid-js"], "groupName": "solid-js" },
+    { "matchPackageNames": ["tsdown"], "groupName": "tsdown" },
+    { "matchPackageNames": ["grammy"], "groupName": "grammy" },
     {
       "matchPackageNames": ["esbuild"],
       "groupName": "esbuild",
