@@ -4,7 +4,7 @@
   "assignees": ["gameroman"],
   "reviewers": ["gameroman"],
   "assignAutomerge": true,
-  "minimumReleaseAge": "25 hours",
+  "minimumReleaseAge": "30 hours",
   "internalChecksFilter": "strict",
   "packageRules": [
     {
