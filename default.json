@@ -4,8 +4,12 @@
   "assignees": ["gameroman"],
   "reviewers": ["gameroman"],
   "assignAutomerge": true,
-  "minimumReleaseAge": "30 hours",
+  "minimumReleaseAge": "32 hours",
   "internalChecksFilter": "strict",
+  "semanticCommits": "enabled",
+  "semanticCommitType": "chore",
+  "semanticCommitScope": "deps",
+  "commitMessageAction": "update",
   "packageRules": [
     {
       "matchPackageNames": [
