@@ -12,6 +12,10 @@
   "commitMessageAction": "update",
   "packageRules": [
     {
+      "matchPackagePatterns": ["*"],
+      "semanticCommitType": "chore"
+    },
+    {
       "matchPackageNames": [
         "oxlint",
         "oxfmt",
