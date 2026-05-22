@@ -11,10 +11,7 @@
   "semanticCommitScope": "deps",
   "commitMessageAction": "update",
   "packageRules": [
-    {
-      "matchPackagePatterns": ["*"],
-      "semanticCommitType": "chore"
-    },
+    { "matchPackagePatterns": ["*"], "semanticCommitType": "chore" },
     {
       "matchPackageNames": [
         "oxlint",
@@ -26,7 +23,10 @@
       "groupName": "lint and format tools"
     },
     { "matchPackageNames": ["typescript"], "groupName": "typescript" },
-    { "matchPackageNames": ["wrangler"], "groupName": "wrangler" },
+    {
+      "matchPackageNames": ["wrangler", "@cloudflare/vite-plugin"],
+      "groupName": "wrangler"
+    },
     {
       "matchPackageNames": ["astro", "@astrojs/cloudflare"],
       "groupName": "astro"
@@ -34,13 +34,6 @@
     { "matchPackageNames": ["solid-js"], "groupName": "solid-js" },
     { "matchPackageNames": ["tsdown"], "groupName": "tsdown" },
     { "matchPackageNames": ["grammy"], "groupName": "grammy" },
-    {
-      "matchPackageNames": ["esbuild"],
-      "groupName": "esbuild",
-      "automerge": true,
-      "automergeType": "pr",
-      "automergeStrategy": "squash",
-      "platformAutomerge": true
-    }
+    { "matchPackageNames": ["esbuild"], "groupName": "esbuild" }
   ]
 }
