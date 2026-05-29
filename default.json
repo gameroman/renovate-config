@@ -32,7 +32,10 @@
       "groupName": "astro"
     },
     { "matchPackageNames": ["solid-js"], "groupName": "solid-js" },
-    { "matchPackageNames": ["tsdown"], "groupName": "tsdown" },
+    {
+      "matchPackageNames": ["tsdown", "rolldown-plugin-dts"],
+      "groupName": "tsdown"
+    },
     { "matchPackageNames": ["grammy"], "groupName": "grammy" },
     { "matchPackageNames": ["esbuild"], "groupName": "esbuild" }
   ]
