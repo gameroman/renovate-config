@@ -28,7 +28,12 @@
       "groupName": "wrangler"
     },
     {
-      "matchPackageNames": ["astro", "@astrojs/cloudflare"],
+      "matchPackageNames": [
+        "astro",
+        "@astrojs/cloudflare",
+        "@astrojs/react",
+        "@astrojs/starlight"
+      ],
       "groupName": "astro"
     },
     { "matchPackageNames": ["solid-js"], "groupName": "solid-js" },
