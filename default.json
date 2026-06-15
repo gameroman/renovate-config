@@ -42,6 +42,14 @@
       "groupName": "tsdown"
     },
     { "matchPackageNames": ["grammy"], "groupName": "grammy" },
-    { "matchPackageNames": ["esbuild"], "groupName": "esbuild" }
+    { "matchPackageNames": ["esbuild"], "groupName": "esbuild" },
+    {
+      "matchPackageNames": [
+        "tailwindcss",
+        "@tailwindcss/vite",
+        "@tailwindcss/typography"
+      ],
+      "groupName": "tailwindcss"
+    }
   ]
 }
