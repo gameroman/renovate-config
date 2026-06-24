@@ -32,7 +32,8 @@
         "astro",
         "@astrojs/cloudflare",
         "@astrojs/react",
-        "@astrojs/starlight"
+        "@astrojs/starlight",
+        "@astrojs/solid-js"
       ],
       "groupName": "astro"
     },
