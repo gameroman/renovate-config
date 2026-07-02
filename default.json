@@ -16,7 +16,8 @@
       "matchDatasources": ["npm"],
       "changelogUrl": "https://main.npmx.dev/diff/{{{depName}}}/v/{{{currentVersion}}}...{{{newVersion}}}",
       "prBodyDefinitions": {
-        "Package": "[{{{depName}}}](https://main.npmx.dev/package/{{{depName}}}){{#if repositoryUrl}} ([source]({{{repositoryUrl}}})){{/if}}"
+        "Package": "[{{{depName}}}](https://main.npmx.dev/package/{{{depName}}}){{#if repositoryUrl}} ([source]({{{repositoryUrl}}})){{/if}}",
+        "Change": "[`{{{currentVersion}}}` → `{{{newVersion}}}`](https://main.npmx.dev/diff/{{{depName}}}/v/{{{currentVersion}}}...{{{newVersion}}})"
       }
     },
     {
