@@ -36,13 +36,7 @@
       "groupName": "wrangler"
     },
     {
-      "matchPackageNames": [
-        "astro",
-        "@astrojs/cloudflare",
-        "@astrojs/react",
-        "@astrojs/starlight",
-        "@astrojs/solid-js"
-      ],
+      "matchPackageNames": ["astro", "@astrojs/*"],
       "groupName": "astro"
     },
     { "matchPackageNames": ["solid-js"], "groupName": "solid-js" },
@@ -53,11 +47,7 @@
     { "matchPackageNames": ["grammy"], "groupName": "grammy" },
     { "matchPackageNames": ["esbuild"], "groupName": "esbuild" },
     {
-      "matchPackageNames": [
-        "tailwindcss",
-        "@tailwindcss/vite",
-        "@tailwindcss/typography"
-      ],
+      "matchPackageNames": ["tailwindcss", "@tailwindcss/*"],
       "groupName": "tailwindcss"
     }
   ]
