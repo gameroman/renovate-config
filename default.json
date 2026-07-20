@@ -4,7 +4,7 @@
   "assignees": ["gameroman"],
   "reviewers": ["gameroman"],
   "assignAutomerge": true,
-  "minimumReleaseAge": "32 hours",
+  "minimumReleaseAge": "33 hours",
   "internalChecksFilter": "strict",
   "semanticCommits": "enabled",
   "semanticCommitType": "chore",
@@ -41,8 +41,8 @@
     },
     { "matchPackageNames": ["solid-js"], "groupName": "solid-js" },
     {
-      "matchPackageNames": ["tsdown", "rolldown-plugin-dts"],
-      "groupName": "tsdown"
+      "matchPackageNames": ["tsdown", "rolldown-plugin-dts", "rolldown"],
+      "groupName": "tsdown and rolldown"
     },
     { "matchPackageNames": ["grammy"], "groupName": "grammy" },
     { "matchPackageNames": ["esbuild"], "groupName": "esbuild" },
