@@ -33,11 +33,11 @@
     { "matchPackageNames": ["typescript"], "groupName": "typescript" },
     {
       "matchPackageNames": ["wrangler", "@cloudflare/vite-plugin"],
-      "groupName": "wrangler"
+      "groupName": "wrangler and @cloudflare/vite-plugin"
     },
     {
       "matchPackageNames": ["astro", "@astrojs/*"],
-      "groupName": "astro"
+      "groupName": "astro dependencies"
     },
     { "matchPackageNames": ["solid-js"], "groupName": "solid-js" },
     {
