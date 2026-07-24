@@ -4,7 +4,7 @@
   "assignees": ["gameroman"],
   "reviewers": ["gameroman"],
   "assignAutomerge": true,
-  "minimumReleaseAge": "33 hours",
+  "minimumReleaseAge": "34 hours",
   "internalChecksFilter": "strict",
   "semanticCommits": "enabled",
   "semanticCommitType": "chore",
@@ -49,6 +49,10 @@
     {
       "matchPackageNames": ["tailwindcss", "@tailwindcss/*"],
       "groupName": "tailwindcss"
+    },
+    {
+      "matchPackageNames": ["react", "react-dom"],
+      "groupName": "react and react-dom"
     }
   ]
 }
