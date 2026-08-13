@@ -53,6 +53,7 @@
     {
       "matchPackageNames": ["react", "react-dom"],
       "groupName": "react and react-dom"
-    }
+    },
+    { "matchPackageNames": ["@emnapi/*"], "groupName": "emnapi packages" }
   ]
 }
