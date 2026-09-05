@@ -10,6 +10,7 @@
   "semanticCommitType": "chore",
   "semanticCommitScope": "deps",
   "commitMessageAction": "update",
+  "labels": ["dependencies"],
   "packageRules": [
     { "matchPackagePatterns": ["*"], "semanticCommitType": "chore" },
     {
@@ -54,6 +55,7 @@
       "matchPackageNames": ["react", "react-dom"],
       "groupName": "react and react-dom"
     },
-    { "matchPackageNames": ["@emnapi/*"], "groupName": "emnapi packages" }
+    { "matchPackageNames": ["@emnapi/*"], "groupName": "emnapi packages" },
+    { "matchPackageNames": ["js-yaml", "yaml"], "groupName": "js-yaml and yaml" }
   ]
 }
