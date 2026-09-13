@@ -22,14 +22,8 @@
       }
     },
     {
-      "matchPackageNames": [
-        "oxlint",
-        "oxfmt",
-        "oxlint-tsgolint",
-        "@biomejs/biome",
-        "@gameroman/config"
-      ],
-      "groupName": "lint and format tools"
+      "matchPackageNames": ["oxlint", "oxfmt", "oxlint-tsgolint"],
+      "groupName": "oxlint and oxfmt"
     },
     { "matchPackageNames": ["typescript"], "groupName": "typescript" },
     {
@@ -40,7 +34,10 @@
       "matchPackageNames": ["astro", "@astrojs/*"],
       "groupName": "astro dependencies"
     },
-    { "matchPackageNames": ["solid-js"], "groupName": "solid-js" },
+    {
+      "matchPackageNames": ["solid-js", "@solidjs/*"],
+      "groupName": "solid-js dependencies"
+    },
     {
       "matchPackageNames": ["tsdown", "rolldown-plugin-dts", "rolldown"],
       "groupName": "tsdown and rolldown"
@@ -56,6 +53,9 @@
       "groupName": "react and react-dom"
     },
     { "matchPackageNames": ["@emnapi/*"], "groupName": "emnapi packages" },
-    { "matchPackageNames": ["js-yaml", "yaml"], "groupName": "js-yaml and yaml" }
+    {
+      "matchPackageNames": ["js-yaml", "yaml"],
+      "groupName": "js-yaml and yaml"
+    }
   ]
 }
